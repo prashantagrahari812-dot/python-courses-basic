@@ -1,0 +1,10 @@
+hour_in_day=24
+second_in_hour=60*60
+day_in_week=7
+day_in_year=365
+second_in_a_day=hour_in_day*second_in_hour
+print(second_in_a_day)
+second_in_week=hour_in_day*second_in_hour*day_in_week
+print(second_in_week)
+second_in_year=hour_in_day*second_in_hour*day_in_year
+print(second_in_year)
